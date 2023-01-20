@@ -1,0 +1,34 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: bank-of-anthos-blackhole
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  displayName: bank-of-anthos-blackhole
+  experiments: null
+  faults:
+  - description: ""
+    displayName: ""
+    name: pod-network-loss-ney
+  - description: ""
+    displayName: ""
+    name: pod-network-loss-9pm
+  - description: ""
+    displayName: ""
+    name: pod-network-loss-xi1
+  keywords:
+  - db
+  - network loss
+  provider:
+    name: ""
+  scenarios: null
