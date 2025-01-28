@@ -1,0 +1,4 @@
+probes:
+- infraType: Kubernetes
+  name: get-user-details-from-db
+  type: httpProbe

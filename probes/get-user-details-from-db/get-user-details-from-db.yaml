@@ -1,0 +1,18 @@
+httpProbe/inputs:
+  method:
+    get:
+      criteria: ==
+      responseCode: "200"
+  tlsConfig:
+    insecureSkipVerify: true
+  url: https://1xg810rdj6.execute-api.us-west-2.amazonaws.com/dev/users?userId=123
+mode: Continuous
+name: get-user-details-from-db
+runProperties:
+  attempt: 1
+  initialDelay: 2s
+  interval: 1s
+  probePollingInterval: 1s
+  probeTimeout: 2s
+  verbosity: info
+type: httpProbe
